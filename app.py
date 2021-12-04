@@ -17,3 +17,9 @@ def inference():
 def postprocessting():
   post_a()
   postprocessing lines
+
+if __name__ == "__main__":
+  preprocessing()
+  model_loading()
+  inference()
+  postprocessing()
